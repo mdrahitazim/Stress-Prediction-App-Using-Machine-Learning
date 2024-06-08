@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import cv2
-import PIL.Image
+#import cv2
+#import PIL.Image
 
 if not hasattr(PIL.Image,'Resampling'):
     PIL.Image.Resampling = PIL.Image
@@ -14,8 +14,8 @@ if not hasattr(PIL.Image,'Resampling'):
 st.title("Are you stressed ?")
 
 #adding header image
-image = cv2.imread("image.jpeg")
-st.image(image, channels="BGR",output_format="JPEG")
+#image = cv2.imread("image.jpeg")
+#st.image(image, channels="BGR",output_format="JPEG")
 
 st.title("Determine whether you are stressed or not from the lifestyle you are leading")
 st.write("Here is a way to check your level of stress from the lifestyle you are living")
