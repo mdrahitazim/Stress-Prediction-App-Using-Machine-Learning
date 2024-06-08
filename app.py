@@ -5,8 +5,8 @@ import pickle
 #import cv2
 #import PIL.Image
 
-if not hasattr(PIL.Image,'Resampling'):
-    PIL.Image.Resampling = PIL.Image
+#if not hasattr(PIL.Image,'Resampling'):
+#    PIL.Image.Resampling = PIL.Image
 #AttributeError: module 'PIL.Image' has no attribute 'Resampling'
 
 
