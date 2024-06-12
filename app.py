@@ -153,7 +153,5 @@ def predict():
     st.write("low = 0% and high = 100%")
     st.divider()
 
-#output
-st.button("Predict", on_click= predict)
-
-st.write("go to top of page to check result after clicking the predict button")
+if st.button("Predict"):
+    predict()
